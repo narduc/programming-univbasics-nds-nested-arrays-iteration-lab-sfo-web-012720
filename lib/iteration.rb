@@ -31,7 +31,7 @@ def join_ingredients(src)
     # j += 1
     # end
     # arr << arr1
-    arr << ["I love " + src[i][0] + " and " + src[i][1] + " on my pizza"]
+    arr << "I love " + src[i][0] + " and " + src[i][1] + " on my pizza"
     i += 1
   end
     return arr

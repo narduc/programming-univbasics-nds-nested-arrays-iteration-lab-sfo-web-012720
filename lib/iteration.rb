@@ -12,7 +12,7 @@ def join_ingredients(src)
     j = 0
     arr1 = []
     while j < src[i].count do
-      arr1 << ["I love " + src[i][0] + " and " + src[i][1] + " on my pizza"]
+      arr1 << ["I love " + src[i][j] + " and " + src[i][j] + " on my pizza"]
     j += 1
     end
     i += 1

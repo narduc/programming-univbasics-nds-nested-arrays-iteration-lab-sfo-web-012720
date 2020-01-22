@@ -61,17 +61,23 @@ def total_even_pairs(src)
   # the number was even. Review the operator documentation if you've forgotten
   # this!
   total = 0
-  #arr = []
+  arr = []
   i = 0
   while i < src.count do
     
     if src[i][0] % 2 == 0 && src[i][1] % 2 == 0
-   #   arr << src[i]
-   total = src[i][0] + src[i][1]
+      arr << src[i]
+   #total = src[i][0] + src[i][1]
     end
 
     i += 1
   end
-  #arr
+  j = 0
+  while j < arr.count do 
+  total += arr[j]
+  
+  j += 1
+end
+  
   total
 end
